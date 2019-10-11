@@ -112,6 +112,20 @@
 
         <h3 class="mt-2">{{product}}</h3>
       </article>
+      <article id="coder2" class="col-md-4 ">
+        <h2>Maximum course length</h2>
+      
+        <fieldset class="mt-2">
+          <label for="word">Enter the course name:</label>
+          <input v-model="first" id="first" type="text">
+        </fieldset>
+        <fieldset class="mt-2">
+          <label for="codeword">Enter the maximum length:</label>
+          <input v-model="second" id="second" type="text">
+        </fieldset>
+        <p>mul: {{ mul }}</p>
+      </article>
+     
         
     </div>
 
@@ -151,6 +165,7 @@
   <script src="components/adder/adder.js"></script>
   <script src="components/subtracter/subtracter.js"></script>
   <script src="components/coder/coder.js"></script>
+  <script src="components/StringLength/maxlength.js"></script>
 </body>
 
 </html>
