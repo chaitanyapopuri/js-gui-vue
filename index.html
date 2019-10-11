@@ -92,34 +92,27 @@
           <input v-model="codeword" id="codeword" type="text">
         </fieldset>
         <p>Encrypted Word: {{encryptedWord}}</p>
-
       </article>
-        <article id="multiplier" class="col-md-4 ">
-          <h2>Vue is awesome!</h2>
-          <p>Two-way data binding listens for changes and automatically updates.</p>
-          <p>This is component adds!</p>
-  
-          <fieldset class="mt-2">
-            <label for="guest">Enter your name (2 to 20 characters):</label>
-            <input v-model="guest" id="guest" type="text" minlength="2" maxlength="20">
-          </fieldset>
-  
-          <fieldset class="mt-2">
-            <label for="firstNumber">Enter first number (1 to 100):</label>
-            <input v-model="firstNumber" id="firstNumber" type="number" min="1" max="100">
-            <span id="firstWarning" class="text-danger"></span>
-          </fieldset>
-  
-          <fieldset class="mt-2">
-            <label for="secondNumber">Enter second number (1 to 100):</label>
-            <input v-model="secondNumber" id="secondNumber" type="number" min="1" max="100">
-            <span id="secondWarning" class="text-danger"></span>
-          </fieldset>
-  
-          <h3 class="mt-2">{{result}}</h3>
-        </article>
-  
+      <article id="multiply" class="col-md-4 ">
+        <h2>No build tools required!</h2>
+        <p>Here's another component.</p>
+        <p>This one subtracts!</p>
 
+        <fieldset class="mt-2">
+          <label for="first">Enter first number (1 to 100):</label>
+          <input v-model="first" id="first" type="number" min="1" max="100">
+          <span id="firstWarning" class="text-danger"></span>
+        </fieldset>
+
+        <fieldset class="mt-2">
+          <label for="second">Enter second number (1 to 100):</label>
+          <input v-model="second" id="second" type="number" min="1" max="100">
+          <span id="secondWarning" class="text-danger"></span>
+        </fieldset>
+
+        <h3 class="mt-2">{{product}}</h3>
+      </article>
+        
     </div>
 
   </main>
